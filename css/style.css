@@ -1,5 +1,7 @@
 body{
-
+	font: 400 16px/1.5 'lato', Arial, sans-serif;
+	color: #47A3DA;
+	background-color: #202020;
 }
 
 /* Typography */
@@ -52,6 +54,63 @@ textarea {
 
 /* Layout */
 .ba-container{
+	margin: 0 auto;
+	max-width: 1100px;
+	border: 50px solid #ffffff;
+	background: #FFFFFF;
+}
+
+.ba-button {
+	background-color: #46A2D9;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	padding: 10px 15px;
+}
+
+.ba-button:hover {
+	background-color: #1C628C;
+}
+
+.ba-button:before {
+	content:"+";
+	padding: 0 4px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	color: #47A3DA;
+	margin-right: 5px;
+}
+
+.ba-grid span {
+	color: #CECECE;
+	font-size: 24px;
+}
+
+
+.ba-grid span:before {
+	content:"$";
+	margin-right: 5px;
+	color: #CECECE;
+}
+
+.ba-main {
+	border: 3px solid #47A3DA;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+h2 a {
+	text-decoration: none;
+	color: #47A3DA;
+	font-size: 32px;
+}
+
+h1 {
+	border-bottom: 3px solid #47A3DA;
+	padding-bottom: 5px;
+}
+
+.ba-grid {
+	padding-bottom: 20px;
+	text-align: center;
 }
