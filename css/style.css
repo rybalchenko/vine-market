@@ -54,10 +54,32 @@ textarea {
 
 /* Layout */
 .ba-container{
-	margin: 0 auto;
+	margin: 20px auto;
 	max-width: 1100px;
 	border: 50px solid #ffffff;
 	background: #FFFFFF;
+}
+
+.ba-main {
+	border: 3px solid #47A3DA;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.ba-grid {
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+.ba-grid span {
+	color: #CECECE;
+	font-size: 24px;
+}
+
+.ba-grid span:before {
+	content:"$";
+	margin-right: 5px;
+	color: #CECECE;
 }
 
 .ba-button {
@@ -81,22 +103,11 @@ textarea {
 	margin-right: 5px;
 }
 
-.ba-grid span {
-	color: #CECECE;
-	font-size: 24px;
-}
-
-
-.ba-grid span:before {
-	content:"$";
-	margin-right: 5px;
-	color: #CECECE;
-}
-
-.ba-main {
-	border: 3px solid #47A3DA;
-	padding-left: 20px;
-	padding-right: 20px;
+h1 {
+	border-bottom: 3px solid #47A3DA;
+	color: #47A3DA;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 h2 a {
@@ -105,12 +116,7 @@ h2 a {
 	font-size: 32px;
 }
 
-h1 {
-	border-bottom: 3px solid #47A3DA;
-	padding-bottom: 5px;
-}
-
-.ba-grid {
-	padding-bottom: 20px;
+.ba-grid__img {
+	display: block;
 	text-align: center;
 }
